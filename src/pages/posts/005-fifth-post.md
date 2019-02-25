@@ -4,6 +4,9 @@ date: 2018-08-06 8:00:00
 author: "sudip"
 path: "/chicken-kebab"
 image: ../../images/kebab.jpg
+tags:
+  - Kebab recicpe
+  - Grill recipe
 ---
 
 Description

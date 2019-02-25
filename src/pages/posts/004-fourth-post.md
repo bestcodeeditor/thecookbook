@@ -4,6 +4,8 @@ date: 2019-02-10 9:00:00
 author: "sudip"
 path: "red-khichdi"
 image: ../../images/khichri.jpg
+tags:
+  - Khichdi recicpe
 ---
 
 Description

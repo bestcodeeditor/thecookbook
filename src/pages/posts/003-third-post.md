@@ -4,6 +4,8 @@ date: 2018-03-11 7:00:00
 author: "sudip"
 path: "/chiken-biriyani"
 image: ../../images/biriyani.jpg
+tags:
+  - Biriyani recicpe
 ---
 
 Description
