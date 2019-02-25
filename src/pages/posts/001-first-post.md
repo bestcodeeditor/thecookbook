@@ -3,6 +3,7 @@ title: "Thai Red Chicken Curry"
 date: 2018-08-10 7:00:00
 author: "sudip"
 path: "/thai-red-chicken"
+image: ../../images/thaired.jpg
 ---
 
 Description
