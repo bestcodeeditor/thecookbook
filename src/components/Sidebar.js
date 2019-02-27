@@ -12,7 +12,9 @@ import {
   FormGroup,
   Input,
 } from "reactstrap"
-import { graphql } from "gatsby"
+import { graphql, StaticQuery } from "gatsby"
+import Img from "gatsby-image"
+import { Link } from "gatsby"
 
 const Sidebar = () => (
   <div>
@@ -43,7 +45,64 @@ const Sidebar = () => (
         />
       </CardBody>
     </Card>
+    <Card>
+      <CardBody>
+        <CardTitle className="text-center text-uppercase mb-3">
+          Recent Posts
+        </CardTitle>
+        <StaticQuery
+          query={sidebarQuery}
+          render={data => (
+            <div>
+              {data.allMarkdownRemark.edges.map(({ node }) => (
+                <Card key={node.id}>
+                  <Link to={node.frontmatter.path}>
+                    <Img
+                      className="card-image-top"
+                      fluid={node.frontmatter.image.childImageSharp.fluid}
+                    />
+                  </Link>
+                  <CardBody>
+                    <CardTitle>
+                      <Link to={node.frontmatter.path}>
+                        {node.frontmatter.title}
+                      </Link>
+                    </CardTitle>
+                  </CardBody>
+                </Card>
+              ))}
+            </div>
+          )}
+        />
+      </CardBody>
+    </Card>
   </div>
 )
+
+const sidebarQuery = graphql`
+  {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+      limit: 3
+    ) {
+      edges {
+        node {
+          id
+          frontmatter {
+            title
+            path
+            image {
+              childImageSharp {
+                fluid(maxWidth: 300) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+`
 
 export default Sidebar
