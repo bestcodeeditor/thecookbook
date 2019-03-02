@@ -6,9 +6,12 @@ import Header from "./header"
 import "../styles/index.scss"
 import Footer from "../components/Footer"
 
+import { Row, Col } from "reactstrap"
+import Sidebar from "./Sidebar"
+
 //import "./layout.css"
 
-const Layout = ({ children }) => (
+const Layout = ({ children, pageTitle }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -29,7 +32,14 @@ const Layout = ({ children }) => (
         />
         <Header siteTitle={data.site.siteMetadata.title} />
         <div className="container" id="content">
-          {children}
+          <h5>{pageTitle}</h5>
+          <br />
+          <Row>
+            <Col md="8">{children}</Col>
+            <Col md="4">
+              <Sidebar />
+            </Col>
+          </Row>
           <Footer />
         </div>
       </>
