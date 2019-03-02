@@ -2,7 +2,6 @@
 title: "Firecracker Asian Salmon"
 date: 2018-12-08 8:00:00
 author: "sanchit"
-path: "/asian-salmon"
 image: ../../images/salmon-recipe.jpg
 tags:
   - Seafood recicpe
