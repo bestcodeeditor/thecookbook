@@ -1,13 +1,14 @@
 ---
 title: "Butter Chicken Biryani Recipe"
 date: 2018-03-11 7:00:00
-author: "sudip"
+author: "Ira"
 image: ../../images/biriyani.jpg
 tags:
   - Biriyani recicpe
 ---
 
 Description
+
 This Butter Chicken Biryani recipe does not need any introduction, the amazing aroma and the chicken cooked in a buttery and mouth-watering gravy allows it to stand out from rest of the other biryanis you'll ever have or have had.
 
 Ingredients

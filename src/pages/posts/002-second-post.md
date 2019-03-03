@@ -1,16 +1,18 @@
 ---
 title: "Firecracker Asian Salmon"
 date: 2018-12-08 8:00:00
-author: "sanchit"
+author: "Suzan"
 image: ../../images/salmon-recipe.jpg
 tags:
   - Seafood recicpe
 ---
 
 Description
+
 This is a kid-friendly, heart-healthy stand-by meal that our entire family loves! You’ll love this Asian-inspired salmon recipe. It’s full of flavor!
 
 Ingredients
+
 1/2 cup peanut oil
 4 tablespoons soy sauce
 4 tablespoons balsamic vinegar (or sub rice vinegar or red wine vinegar)

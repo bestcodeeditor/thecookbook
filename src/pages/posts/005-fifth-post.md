@@ -1,7 +1,7 @@
 ---
 title: "Walnut Kabab Recipe"
 date: 2018-08-06 8:00:00
-author: "sudip"
+author: "Katty"
 image: ../../images/kebab.jpg
 tags:
   - Kebab recicpe
@@ -9,6 +9,7 @@ tags:
 ---
 
 Description
+
 Walnut Kabab is a delicious and simple North-Indian recipe which is prepared with walnut, gram flour, paneer, carrot, ginger-garlic paste and spices. This appetizer recipe is a delicious dish to prepare at home on special occasions like anniversaries and get together. Made with simple ingredients present in your kitchen, this delicious appetizer recipe can be prepared for guests arriving on short notice. If you're a spice junkie and have a special liking for all spicy dishes then you can customize the spice quotient in this recipe as per your preference. This delicious kebab recipe tastes even better when eaten with onions and green coriander chutney. In this recipe, the use of garlic paste adds a unique and strong taste to the kebabs. Try it and enjoy.
 
 Ingredients

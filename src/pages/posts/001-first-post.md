@@ -1,7 +1,7 @@
 ---
 title: "Thai Red Chicken Curry"
 date: 2018-08-10 7:00:00
-author: "sudip"
+author: "Jenefer"
 image: ../../images/thaired.jpg
 tags:
   - Chicken recicpe

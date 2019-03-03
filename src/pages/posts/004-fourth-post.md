@@ -1,13 +1,14 @@
 ---
 title: "Red Rice Khichdi Recipe"
 date: 2019-02-10 9:00:00
-author: "sudip"
+author: "John"
 image: ../../images/khichri.jpg
 tags:
   - Khichdi recicpe
 ---
 
 Description
+
 This easy-to-make recipe can be prepared with easily available ingredients such as red rice, green gram dumplings, potato, cloves, cinnamon, curry leaves and dry red chilli. This lip-smacking khichdi recipe is light on stomach and strong on flavors. This mouth-watering main dish recipe can be prepared anytime and by anyone in just 40 minutes. You can serve this delectable Indian recipe with yogurt or pickle of your choice and enhance the taste of your meal. This scrumptious main-dish recipe will be enjoyed by kids and adults alike. Now, don't just take our word for it, go ahead and try it for yourself!
 
 Ingredients

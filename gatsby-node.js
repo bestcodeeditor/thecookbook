@@ -1,5 +1,6 @@
 const path = require("path")
 const { slugify } = require("./src/util/utility")
+const authors = require("./src/util/authors")
 
 exports.onCreateNode = ({ node, actions }) => {
   const { createNodeField } = actions
@@ -40,6 +41,8 @@ exports.createPages = ({ actions, graphql }) => {
         component: path.resolve("./src/templates/singlePost.js"),
         context: {
           slug: post.fields.slug,
+          imageUrl: authors.find(x => x.name === post.frontmatter.author)
+            .imageUrl,
         },
       })
     })
