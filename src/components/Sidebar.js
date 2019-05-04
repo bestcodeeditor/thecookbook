@@ -15,6 +15,7 @@ import {
 import { graphql, StaticQuery } from "gatsby"
 import Img from "gatsby-image"
 import { Link } from "gatsby"
+import advImage from "../images/advertise.jpg"
 
 const Sidebar = ({ author, authorFluid }) => (
   <div>
@@ -103,11 +104,7 @@ const Sidebar = ({ author, authorFluid }) => (
         <CardTitle className="text-center text-uppercase">
           Advertisement
         </CardTitle>
-        <img
-          src="https://via.placeholder.com/320x300"
-          alt="advert"
-          style={{ width: "100%" }}
-        />
+        <img src={advImage} alt="advert" style={{ width: "100%" }} />
       </CardBody>
     </Card>
     <Card>

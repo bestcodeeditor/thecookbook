@@ -32,7 +32,7 @@ const Layout = ({ authorImageFluid, children, pageTitle, postAuthor }) => (
         />
         <Header siteTitle={data.site.siteMetadata.title} />
         <div className="container" id="content">
-          <h5>{pageTitle}</h5>
+          <h5 style={{ color: "#FFA500" }}>{pageTitle}</h5>
           <br />
           <Row>
             <Col md="8">{children}</Col>
