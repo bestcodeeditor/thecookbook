@@ -110,7 +110,7 @@ const Sidebar = ({ author, authorFluid }) => (
     <Card>
       <CardBody>
         <CardTitle className="text-center text-uppercase mb-3">
-          Recent Posts
+          Latest Recipies
         </CardTitle>
         <StaticQuery
           query={sidebarQuery}
