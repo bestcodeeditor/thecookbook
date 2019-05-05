@@ -4,7 +4,7 @@ date: 2019-04-04 9:00:00
 author: "Binita"
 image: ../../images/begun.jpeg
 tags:
-  - Vegan recicpe
+  - vegan recicpe
   - Fried Veg recipe
 ---
 

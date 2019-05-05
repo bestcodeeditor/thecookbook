@@ -4,7 +4,7 @@ date: 2019-03-06 8:00:00
 author: "Katty"
 image: ../../images/vegan.jpg
 tags:
-  - Vegan recicpe
+  - vegan recicpe
   - rice recipe
 ---
 

@@ -54,7 +54,7 @@ const authors = [
   },
   {
     name: "Binita",
-    imageUrl: "author6.jpg",
+    imageUrl: "author7.jpg",
     bio:
       "Binita is a  passionate cook and loves to innovate new ideas in creative cooking",
     facebook: "https://facebook.com/",

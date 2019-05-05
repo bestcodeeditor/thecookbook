@@ -9,7 +9,7 @@ import author1Image from "../images/author1.jpg"
 import author2Image from "../images/author3.jpg"
 import suzanImage from "../images/author2.jpg"
 import kattyImage from "../images/author5.jpg"
-import binitaImage from "../images/author6.jpg"
+import binitaImage from "../images/author7.jpg"
 
 import { slugify } from "../util/utility"
 

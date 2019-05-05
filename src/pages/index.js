@@ -5,42 +5,55 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { graphql, StaticQuery } from "gatsby"
 import Post from "../components/Post"
+import { HomeHeader, Banner } from "../util"
 import PaginationLinks from "../components/PaginationLinks"
+import img from "../images/home.jpg"
 
 const IndexPage = () => {
   const postsPerPage = 2
   let numberOfPages
 
   return (
-    <Layout pageTitle="Find  recipes for speedy weeknight dinners, quick and easy meals, kid-pleasing snacks and desserts, and more!">
-      <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <>
+      <HomeHeader img={img}>
+        <Banner
+          title="The Cookbook"
+          subtitle="Get free recipies & cook by yourself"
+        />
+      </HomeHeader>
+      <Layout pageTitle="Find  recipes for speedy weeknight dinners, quick and easy meals, kid-pleasing snacks and desserts, and more!">
+        <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
 
-      <StaticQuery
-        query={Blogquery}
-        render={data => {
-          numberOfPages = Math.ceil(
-            data.allMarkdownRemark.totalCount / postsPerPage
-          )
-          return (
-            <div>
-              {data.allMarkdownRemark.edges.map(({ node }) => (
-                <Post
-                  key={node.id}
-                  title={node.frontmatter.title}
-                  author={node.frontmatter.author}
-                  slug={node.fields.slug}
-                  date={node.frontmatter.date}
-                  body={node.excerpt}
-                  fluid={node.frontmatter.image.childImageSharp.fluid}
-                  tags={node.frontmatter.tags}
+        <StaticQuery
+          query={Blogquery}
+          render={data => {
+            numberOfPages = Math.ceil(
+              data.allMarkdownRemark.totalCount / postsPerPage
+            )
+            return (
+              <div>
+                {data.allMarkdownRemark.edges.map(({ node }) => (
+                  <Post
+                    key={node.id}
+                    title={node.frontmatter.title}
+                    author={node.frontmatter.author}
+                    slug={node.fields.slug}
+                    date={node.frontmatter.date}
+                    body={node.excerpt}
+                    fluid={node.frontmatter.image.childImageSharp.fluid}
+                    tags={node.frontmatter.tags}
+                  />
+                ))}
+                <PaginationLinks
+                  currentPage={1}
+                  numberOfPages={numberOfPages}
                 />
-              ))}
-              <PaginationLinks currentPage={1} numberOfPages={numberOfPages} />
-            </div>
-          )
-        }}
-      />
-    </Layout>
+              </div>
+            )
+          }}
+        />
+      </Layout>
+    </>
   )
 }
 

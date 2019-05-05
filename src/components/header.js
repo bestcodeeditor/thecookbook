@@ -42,7 +42,7 @@ class Header extends React.Component {
               <Nav className="ml-auto" navbar>
                 <NavItem>
                   <NavLink href="/team/" style={{ color: "#FFFFFF" }}>
-                    Team
+                    Our Chef's
                   </NavLink>
                 </NavItem>
                 <NavItem>

@@ -4,7 +4,7 @@ date: 2019-04-05 9:00:00
 author: "Binita"
 image: ../../images/khichdi.jpg
 tags:
-  - Vegan recicpe
+  - vegan recicpe
   - rice recipe
 ---
 
