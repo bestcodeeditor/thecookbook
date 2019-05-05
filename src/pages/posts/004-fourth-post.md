@@ -7,11 +7,11 @@ tags:
   - Khichdi recicpe
 ---
 
-Description
+Description:-
 
 This easy-to-make recipe can be prepared with easily available ingredients such as red rice, green gram dumplings, potato, cloves, cinnamon, curry leaves and dry red chilli. This lip-smacking khichdi recipe is light on stomach and strong on flavors. This mouth-watering main dish recipe can be prepared anytime and by anyone in just 40 minutes. You can serve this delectable Indian recipe with yogurt or pickle of your choice and enhance the taste of your meal. This scrumptious main-dish recipe will be enjoyed by kids and adults alike. Now, don't just take our word for it, go ahead and try it for yourself!
 
-Ingredients
+Ingredients:-
 
 1/4 cup sundried split skinless green gram dumplings
 1 chopped green chilli
@@ -28,7 +28,7 @@ salt as required
 6 tablespoon rice
 1 1/2 cup wate
 
-Instructions
+Instructions:-
 
 Step 1
 To make this delicious dinner recipe, place a pressure cooker over medium flame and heat the ghee in it.

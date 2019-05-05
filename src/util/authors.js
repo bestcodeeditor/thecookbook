@@ -52,6 +52,17 @@ const authors = [
     google: "https://google.com/",
     linkedin: "https://linked.com/",
   },
+  {
+    name: "Binita",
+    imageUrl: "author6.jpg",
+    bio:
+      "Binita is a  passionate cook and loves to innovate new ideas in creative cooking",
+    facebook: "https://facebook.com/",
+    twitter: "https://twitter.com/",
+    instagram: "https://instagram.com/",
+    google: "https://google.com/",
+    linkedin: "https://linked.com/",
+  },
 ]
 
 module.exports = authors

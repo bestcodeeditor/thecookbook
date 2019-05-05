@@ -7,11 +7,11 @@ tags:
   - Chicken recicpe
 ---
 
-Description
+Description:-
 
 This is a quick and easy curry stir-fry made with chicken, zucchini, red bell pepper and carrot. Coconut milk and curry paste make an irresistible sauce. No need to go out to eat, as this dish is ready in about 20 minutes.
 
-Ingredients
+Ingredients:-
 
 1 tbsp vegetable oil
 1 tbsp ginger

@@ -7,11 +7,11 @@ tags:
   - Seafood recicpe
 ---
 
-Description
+Description:-
 
 This is a kid-friendly, heart-healthy stand-by meal that our entire family loves! You’ll love this Asian-inspired salmon recipe. It’s full of flavor!
 
-Ingredients
+Ingredients:-
 
 1/2 cup peanut oil
 4 tablespoons soy sauce
@@ -25,7 +25,7 @@ Ingredients
 1/2 teaspoon salt
 8 (4 ounce) fillets salmon
 
-Instructions
+Instructions:-
 
 In a gallon-sized ziptop bag, all ingredients except salmon filets. Zip and shake to combine.
 Add the salmon filets to the marinade, close the bag, and refrigerate for an hour. (Or freeze at this point, if making as a freezer meal.)

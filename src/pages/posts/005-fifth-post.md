@@ -8,11 +8,11 @@ tags:
   - Grill recipe
 ---
 
-Description
+Description:-
 
 Walnut Kabab is a delicious and simple North-Indian recipe which is prepared with walnut, gram flour, paneer, carrot, ginger-garlic paste and spices. This appetizer recipe is a delicious dish to prepare at home on special occasions like anniversaries and get together. Made with simple ingredients present in your kitchen, this delicious appetizer recipe can be prepared for guests arriving on short notice. If you're a spice junkie and have a special liking for all spicy dishes then you can customize the spice quotient in this recipe as per your preference. This delicious kebab recipe tastes even better when eaten with onions and green coriander chutney. In this recipe, the use of garlic paste adds a unique and strong taste to the kebabs. Try it and enjoy.
 
-Ingredients
+Ingredients:-
 
 30 halved walnuts
 150 gm grated paneer
@@ -30,7 +30,7 @@ salt as required
 1 1/2 teaspoon cumin powder
 3/4 cup roasted gram flour (besan)
 
-Instructions
+Instructions:-
 
 Step 1
 To prepare this recipe take a pan, put it over the medium flame and add oil to it. Now, add walnut, carrot and salt to it and saute for 2-3 minutes until moisture dries up. Then add ginger and garlic paste and saute for a while.

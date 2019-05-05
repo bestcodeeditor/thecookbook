@@ -7,11 +7,11 @@ tags:
   - Biriyani recicpe
 ---
 
-Description
+Description:-
 
 This Butter Chicken Biryani recipe does not need any introduction, the amazing aroma and the chicken cooked in a buttery and mouth-watering gravy allows it to stand out from rest of the other biryanis you'll ever have or have had.
 
-Ingredients
+Ingredients:-
 
 1 kilograms chicken boneless
 2 onion
@@ -27,7 +27,7 @@ mint leaves as required
 2 bay leaf
 2 clove
 
-Instructions
+Instructions:-
 
 Step 1
 Marinate the boneless chicken pieces in curd along with cashew paste, salt as per taste, garam masala powder, red chili powder, coriander powder and ginger-garlic paste. Let the chicken marinate for half an hour.
