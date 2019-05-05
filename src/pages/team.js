@@ -32,7 +32,7 @@ const TeamPage = () => (
               color="primary"
               href={`/author/${slugify(authors[5].name)}`}
             >
-              View posts
+              View Recipe
             </Button>
           </CardBody>
         </Card>
@@ -52,7 +52,7 @@ const TeamPage = () => (
               color="primary"
               href={`/author/${slugify(authors[3].name)}`}
             >
-              View posts
+              View Recipe
             </Button>
           </CardBody>
         </Card>
@@ -73,7 +73,7 @@ const TeamPage = () => (
               color="primary"
               href={`/author/${slugify(authors[1].name)}`}
             >
-              View posts
+              View Recipe
             </Button>
           </CardBody>
         </Card>
@@ -94,7 +94,7 @@ const TeamPage = () => (
               color="primary"
               href={`/author/${slugify(authors[0].name)}`}
             >
-              View posts
+              View Recipe
             </Button>
           </CardBody>
         </Card>
@@ -114,7 +114,7 @@ const TeamPage = () => (
               color="primary"
               href={`/author/${slugify(authors[2].name)}`}
             >
-              View posts
+              View Recipe
             </Button>
           </CardBody>
         </Card>
@@ -134,7 +134,7 @@ const TeamPage = () => (
               color="primary"
               href={`/author/${slugify(authors[4].name)}`}
             >
-              View posts
+              View Recipe
             </Button>
           </CardBody>
         </Card>
